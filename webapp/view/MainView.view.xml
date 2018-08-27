@@ -1,0 +1,13 @@
+<mvc:View controllerName="com.cerner.scp.augero.integration.UI5IntegrationProject.controller.MainView"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:controls="com.cerner.scp.augero.integration.UI5IntegrationProject.controls">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<controls:VTControl Property1="abc" />
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
